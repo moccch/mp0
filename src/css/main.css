@@ -1,1 +1,86 @@
 /* Your CSS here. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card container */
+.card {
+  background-color: #555555;
+  padding: 20px;
+  height: 520px;
+  max-width: 600px;
+  margin: 0 20px 20px 20px;
+  color: white;
+}
+
+/* card image */
+.card img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* card headings */
+.card h1 {
+  color: white;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* card email */
+.card h2 {
+  color: #cccccc;
+  font-size: 1.1em;
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* card github */
+.card h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* card github link */
+.card h3 a {
+  color: #9b59b6;
+  text-decoration: underline;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* card github link hover */
+.card h3 a:hover {
+  color: #8e44ad;
+  text-decoration: underline;
+}
+/* card paragraphs */
+.card p {
+  color: white;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: left;
+  max-width: 100%;
+}
+
